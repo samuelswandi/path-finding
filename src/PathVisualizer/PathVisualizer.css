@@ -1,0 +1,28 @@
+.grid {
+    margin: 200px 0 0;
+}
+
+.button-1 {
+    background-color: rgba(42,148,210,255);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(36,96,132,255);
+    
+    cursor: pointer;
+    width : 9vw;
+    height: 4vw;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: Century Gothic, sans-serif;
+    font-weight: bold;
+    font-size: 0.75vw;
+    z-index: 1;
+}
+
+.button-1:active {
+    background-color: rgba(42,148,210,255);
+    box-shadow: 0 0px rgba(36,96,132,255);
+    transform: translateY(5%);
+}
