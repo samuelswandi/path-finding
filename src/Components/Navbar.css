@@ -1,0 +1,13 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    color:white;
+
+    overflow: hidden;
+    height:20%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-left:10px;
+}
+  

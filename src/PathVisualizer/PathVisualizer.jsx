@@ -102,10 +102,11 @@ export default class PathVisualizer extends Component {
               </div>
             );
           })}
+          <button className="button-1" onClick={() => this.visualizeDijkstra()}>
+            Visualize Dijkstra's Algorithm
+            </button>
         </div>
-        <button className="button-1"onClick={() => this.visualizeDijkstra()}>
-          Visualize Dijkstra's Algorithm
-        </button>
+            
       </>
     );
   }
