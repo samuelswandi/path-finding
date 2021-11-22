@@ -1,7 +1,7 @@
 .node {
-    width: 25px;
-    height: 25px;
-    outline: 1px solid lightgrey;
+    width: 1.5vw;
+    height: 1.5vw;
+    outline: 0.1vw solid lightgrey;
     display: inline-block;
   }
   

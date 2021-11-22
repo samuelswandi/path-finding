@@ -6,7 +6,6 @@ function Navbar() {
     return (
         <div class="topnav">
             <h1>PathVisualizer</h1>
-            
         </div>
     )
 }

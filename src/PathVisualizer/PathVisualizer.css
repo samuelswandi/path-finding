@@ -1,14 +1,15 @@
 .grid {
-    padding:100px;
+    height: 40vw;
+    width: auto;
+    padding: 2vw;
 }
 
 .button-1 {
-
-    margin-top:10px;
+    margin-top:1vw;
 
     background-color: white;
     border: 0;
-    border-radius: 10px;
+    border-radius: 1vw;
     
     cursor: pointer;
     width : 7vw;
