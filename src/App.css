@@ -1,41 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 
 .App {
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-  font-family: 'Sen', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    animation: gradient 15s ease infinite;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    overflow: hidden;
 }
 
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height:5%;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  font-size: 0.75vw;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 0.75vw;
 }
 
 @keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
 
-  50% {
-    background-position: 100% 50%;
-  }
+    50% {
+        background-position: 100% 50%;
+    }
 
-  100% {
-    background-position: 0% 50%;
-  }
+    100% {
+        background-position: 0% 50%;
+    }
 }
